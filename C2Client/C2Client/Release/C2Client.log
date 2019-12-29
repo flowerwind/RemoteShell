@@ -1,21 +1,32 @@
-﻿  源.cpp
-d:\c代码\c2client\c2client\源.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-d:\c代码\c2client\c2client\源.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-d:\c代码\c2client\c2client\源.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-d:\c代码\c2client\c2client\源.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-d:\c代码\c2client\c2client\源.cpp(69): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  base64.cpp
+  baseFunction.cpp
+d:\remoteshell\c2client\c2client\basefunction.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+d:\remoteshell\c2client\c2client\basefunction.cpp(17): warning C4101: “tmpChar”: 未引用的局部变量
+d:\remoteshell\c2client\c2client\basefunction.cpp(49): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 参见“strtok”的声明
+d:\remoteshell\c2client\c2client\basefunction.cpp(54): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 参见“strtok”的声明
+  choice.cpp
+d:\remoteshell\c2client\c2client\choice.cpp(57): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
-d:\c代码\c2client\c2client\源.cpp(78): warning C4018: “<”: 有符号/无符号不匹配
-d:\c代码\c2client\c2client\源.cpp(77): warning C4101: “tmpChar”: 未引用的局部变量
-d:\c代码\c2client\c2client\源.cpp(98): warning C4101: “result”: 未引用的局部变量
-d:\c代码\c2client\c2client\源.cpp(102): warning C4101: “getLength”: 未引用的局部变量
-d:\c代码\c2client\c2client\源.cpp(106): warning C4101: “addrClient”: 未引用的局部变量
-d:\c代码\c2client\c2client\源.cpp(110): warning C4101: “netAddr”: 未引用的局部变量
+  main.cpp
+d:\remoteshell\c2client\c2client\main.cpp(16): warning C4101: “result”: 未引用的局部变量
+d:\remoteshell\c2client\c2client\main.cpp(20): warning C4101: “getLength”: 未引用的局部变量
+d:\remoteshell\c2client\c2client\main.cpp(24): warning C4101: “addrClient”: 未引用的局部变量
+d:\remoteshell\c2client\c2client\main.cpp(28): warning C4101: “netAddr”: 未引用的局部变量
+  run.cpp
+d:\remoteshell\c2client\c2client\run.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\remoteshell\c2client\c2client\run.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\remoteshell\c2client\c2client\run.cpp(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\remoteshell\c2client\c2client\run.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\remoteshell\c2client\c2client\run.cpp(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
   正在生成代码
-  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+d:\remoteshell\c2client\c2client\basefunction.cpp(71): warning C4715: “singleHexCharToInt”: 不是所有的控件路径都返回值
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  C2Client.vcxproj -> D:\c代码\C2Client\Release\C2Client.exe
+  C2Client.vcxproj -> D:\RemoteShell\C2Client\Release\C2Client.exe

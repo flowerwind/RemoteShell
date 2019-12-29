@@ -1,6 +1,10 @@
-﻿  源.cpp
-d:\c代码\c2server\c2server\源.cpp(15): warning C4101: “sendChar”: 未引用的局部变量
+﻿  base64.cpp
+  baseFunction.cpp
+  choice.cpp
+  main.cpp
+d:\remoteshell\c2server\c2server\main.cpp(18): warning C4101: “recvChar”: 未引用的局部变量
+d:\remoteshell\c2server\c2server\main.cpp(17): warning C4101: “sendChar”: 未引用的局部变量
   正在生成代码
-  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  C2Server.vcxproj -> D:\c代码\C2Server\Release\C2Server.exe
+  C2Server.vcxproj -> D:\RemoteShell\C2Server\Release\C2Server.exe

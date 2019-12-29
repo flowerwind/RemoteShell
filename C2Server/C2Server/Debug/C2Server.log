@@ -1,0 +1,8 @@
+﻿  base64.cpp
+  baseFunction.cpp
+  choice.cpp
+  main.cpp
+d:\remoteshell\c2server\c2server\main.cpp(18): warning C4101: “recvChar”: 未引用的局部变量
+d:\remoteshell\c2server\c2server\main.cpp(17): warning C4101: “sendChar”: 未引用的局部变量
+  正在生成代码...
+  C2Server.vcxproj -> D:\RemoteShell\C2Server\Debug\C2Server.exe
