@@ -37,7 +37,7 @@ C2Server.exe
 
 **PS:**
 
-BUG1：该项目采用windows管道传输CreateProcess创建的进程的返回值，有些命令会产生一些bug(如net share等)。后续会修改shell执行的实现代码。
+BUG1：该项目的shell功能采用windows管道传输CreateProcess创建的cmd进程的返回值，有些命令会产生一些bug(如net share等)。后续会修改shell执行的实现代码。
 
 BUG2:在执行SpawnCS后想通过exit之后继续执行cmd的shell时会发现无法执行shell命令了，这是因为客户端的在执行CS的shellcode时执行了WaitForSingleObject(hThread, INFINITE)。所以会一直阻塞，后面准备把执行shellcode的一大块函数已一个线程启动，修改这个bug。
 
